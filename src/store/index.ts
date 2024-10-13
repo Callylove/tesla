@@ -1,14 +1,4 @@
 import { createStore } from "vuex";
-interface User {
-  imageSrc: string;
-  name: string;
-  points: number;
-  accuracy: number;
-}
-
-export interface State {
-  users: User[];
-}
 export default createStore({
   state: {
     weaknessTopics: [
@@ -93,7 +83,7 @@ export default createStore({
       },
     ],
     isLoading: true,
-    incrementValue: 15,
+    incrementValue: 25,
   },
   getters: {
     getUsers: (state) => state.users,

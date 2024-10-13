@@ -186,22 +186,22 @@ export default defineComponent({
 <style scoped>
 .report-dashboard {
   display: grid;
-  grid-template-columns: 26rem 1fr; /* Sidebar and Main */
+  grid-template-columns: 26rem 1fr;
   grid-template-rows: auto 1fr;
   background-color: var(--color-grey-100);
-  gap: 20px; /* Add gap between grid items */
+  gap: 20px;
 }
 
 @media (max-width: 1024px) {
   .report-dashboard {
-    grid-template-columns: 20rem 1fr; /* Adjust for tablets */
+    grid-template-columns: 20rem 1fr;
   }
 }
 
 @media (max-width: 768px) {
   .report-dashboard {
-    grid-template-columns: 1fr; /* Stack on smaller screens */
-    grid-template-rows: auto; /* Remove second row */
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
   }
 }
 
@@ -212,14 +212,14 @@ export default defineComponent({
 .select-options {
   margin-top: 30px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Flexible columns */
+  grid-template-columns: repeat(3, 1fr);
   gap: 15px;
   width: 100%;
 }
 
 .container {
   display: grid;
-  grid-template-columns: 60% 40%; /* Stack columns */
+  grid-template-columns: 60% 40%;
   gap: 20px;
   margin-top: 30px;
 }
@@ -254,7 +254,7 @@ export default defineComponent({
 .progress-container,
 .leaderboard-container {
   display: grid;
-  grid-template-columns: 50% 50%; /* Stack columns on small screens */
+  grid-template-columns: 50% 50%;
   gap: 20px;
   margin-top: 30px;
   width: 100%;
@@ -262,11 +262,11 @@ export default defineComponent({
 
 .progress-container .col1 .card,
 .progress-container .col2 .card {
-  height: auto; /* Allow height to adjust */
+  height: auto;
 }
 
 .leaderboard-container .card {
-  height: 300px; /* Allow height to adjust */
+  height: 300px;
 }
 
 .leaderboard-container .card .content {

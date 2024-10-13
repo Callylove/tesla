@@ -1,4 +1,3 @@
-// src/store/types.ts
 export interface ChartOptions {
   chart: {
     id: string;
@@ -44,7 +43,13 @@ export interface ChartData {
   }>;
   options: ChartOptions;
 }
-
+interface User {
+  imageSrc: string;
+  name: string;
+  points: number;
+  accuracy: number;
+}
 export interface State {
   chartData: ChartData;
+  users: User[];
 }
