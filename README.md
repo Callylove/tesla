@@ -13,8 +13,8 @@ The setup is built around Vue.js, leveraging its powerful ecosystem to create a 
 To get started with this project, follow these steps:
 
 1. **Clone the repository**:
-   git clone https://github.com/yourusername/project-repo.git
-   cd project-repo
+   git clone https://github.com/Callylove/tesla.git
+   cd tesla
 2. **Install dependencies: Make sure you have Node.js installed. Then run**:
 npm install
 3. **Run the development server**:
