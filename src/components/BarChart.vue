@@ -105,8 +105,8 @@ export default {
 
 <style>
 #my-bar-id {
-  width: 100% !important; /* Adjust width as needed */
-  height: 400px !important; /* Adjust height as needed */
+  width: 100% !important;
+  height: 400px !important;
   padding-top: 30px;
 }
 </style>
