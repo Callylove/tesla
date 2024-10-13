@@ -65,5 +65,6 @@ export default defineComponent({
 <style scoped>
 select {
   appearance: none; /* Remove default arrow */
+  cursor: pointer;
 }
 </style>
